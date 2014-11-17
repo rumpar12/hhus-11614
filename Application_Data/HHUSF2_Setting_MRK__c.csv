@@ -1,0 +1,120 @@
+"ID","OWNERID","ISDELETED","NAME","CREATEDDATE","CREATEDBYID","LASTMODIFIEDDATE","LASTMODIFIEDBYID","SYSTEMMODSTAMP","MAYEDIT","ISLOCKED","LASTVIEWEDDATE","LASTREFERENCEDDATE","ACTIVE_MRK__C","DESCRIPTION_MRK__C","EXTERNAL_ID_MRK__C","LANGUAGE_MRK__C","TEXT_MRK__C","TYPE_MRK__C"
+"a2yU0000000TNktIAG","005U0000000nwrsIAA","false","NOTIFICATION_CENTER","2013-12-07T04:40:39.000Z","005U0000000nwrsIAA","2014-08-16T03:18:10.000Z","005U0000000nwrsIAA","2014-08-16T03:18:10.000Z","true","false","","","true","Settings for Notification Center","NOTIFICATION_CENTER-enUS","en_US","{
+
+	""notification source provider classes"": [
+		""MRK_CommunicationNotificationSource"",
+		""MRK_DataStewardshipNotificationSource""
+	],
+
+	""max number visible"": 5,
+
+	""show sample communication notifications"": false,
+
+	""sample communication notifications"": [{
+		""date"": ""4/30/2012 "",
+		""title"": ""Field Policy Letter 10: Professional Information Requests (PIR) Revisions"",
+		""summary"": ""To inform you of a change to the PIR process in Field Policy Letter 10 effective April 1, 2012."",
+		""source"": ""General"",
+		""read"": false
+	}, {
+		""Date"": ""1/25/2012"",
+		""Title"": ""AFLURIA: Guidance for the 2012-2013 Prebook Season"",
+		""Summary"": ""To provide you with details regarding the 2012-2013 Prebook Season for AFLURIA."",
+		""Source"": ""AFLURIA"",
+		""read"": false
+	}, {
+		""Date"": ""2/2/2012"",
+		""Title"": ""2012 Safe Driver Award Program Overview"",
+		""Summary"": ""Overview of the 2012 Safe Driver Award Program including changes to awards. All people managers must review the list of 3 year award recipients by February 3, 2012."",
+		""Source"": ""General"",
+		""read"": true
+	}],
+
+	""show sample data stewardship notifications"": false,
+
+	""sample data stewardship notifications"": [{
+		""type"": ""data stewardship"",
+		""url"": ""/apex/MRK_DatastewardshipRequest?id=1"",
+		""date"": ""2013-03-12"",
+		""read"": ""unread"",
+		""source"": ""Account Stewardship"",
+		""title"": ""Account X"",
+		""id"": ""1""
+	}, {
+		""type"": ""data stewardship"",
+		""url"": ""/apex/MRK_DatastewardshipRequest?id=2"",
+		""date"": ""2013-04-25"",
+		""read"": ""read"",
+		""source"": ""Account Stewardship"",
+		""title"": ""Account Y"",
+		""id"": ""2""
+	}, {
+		""type"": ""data stewardship"",
+		""url"": ""/apex/MRK_DatastewardshipRequest?id=3"",
+		""date"": ""2013-05-03"",
+		""read"": ""unread"",
+		""source"": ""Account Stewardship"",
+		""title"": ""Account QZV"",
+		""id"": ""3""
+	}]
+}","JSON"
+"a2yU0000000TNkuIAG","005U0000000nwrsIAA","false","COACHING_AND_FEEDBACK","2013-12-07T04:40:39.000Z","005U0000000nwrsIAA","2014-08-16T03:18:10.000Z","005U0000000nwrsIAA","2014-08-16T03:18:10.000Z","true","false","","","true","Settings for Merck specific Coaching and Feedback functionality","COACHING_AND_FEEDBACK-en_US","en_US","{	""skills assessment default value"": ""Not a Focus of Coaching Today"",	""compliance follow up default value"": ""Response Required"",	""compliance action default value"": ""Select Action if follow-up needed"",	""compliance area default value"": ""Select Area(s) if follow-up needed"",	""compliance acknowledgement required value"": ""Yes"",	""in progress status value"": ""In Progress"",	""pending approval status value"": ""Pending Approval"",	""approved status value"": ""Approved"",	""rejected status value"": ""Rejected"",	""usco record type name"": ""USCO_MRK"",	""vaccines record type name"": ""Vaccines_MRK"", ""MRK_Coaching record type name"": ""MRK_Coaching"",	""messages"": {		""one skill assessment required"": ""Please select at least one skill assessment"",		""summary requires skill assessment to be selected"": ""Please select at least one skill assessment for the \""{0}\"" section"",		""compliance follow up action needed required"": ""Please select a reponse"",		""select compliance follow up action"": ""Please select a follow up action"",		""select at least one compliance area"": ""Please select at least one compliance area."",		""no compliance follow up with area values selected"": ""An Area of Compliance Concern should only be selected if Compliance Follow-up Action is needed."",		""compliance action specified but no follow up indicated or no area selected"": ""You selected an action.  Please select an area of concern"",		""compliance acknowledgement required"": ""You must review and accept the Compliance Acknowledgment to submit the iFTR.""	},	""compliance area field names"": [		""COMPL_Area_Fair_Balance_MRK__c"",		""COMPL_Area_Offer_PI_MRK__c"",		""COMPL_Unapproved_HCP_MRK__c"",		""COMPL_Reporting_AE_MRK__c"",		""COMPL_Sampling_Voucher_MRK__c"",		""COMPL_Other_MRK__c""	],	""usco"": {		""sections"": [			{				""name"": ""1:1 Customer Interactions"",				""type"": ""skills section"",				""skill fields"": [					""CI_Knowledge_MRK__c"",					""CI_Relevance_MRK__c"",					""CI_Balance_MRK__c"",					""CI_Service_MRK__c""								],				""summary field"": ""CI_Summary_MRK__c""			},			{				""name"": ""Business Acumen"",				""type"": ""skills section"",				""skill fields"": [					""BA_Market_Profiling_MRK__c"",					""BA_Strategic_Customer_MRK__c"",					""BA_Business_Planning_MRK__c""				],				""summary field"": ""BA_Summary_MRK__c""			},			{				""name"": ""Account Management"",				""type"": ""skills section"",				""skill fields"": [					""AM_Plan_MRK__c"",					""AM_Implement_MRK__c"",					""AM_Evaluate_MRK__c""				],				""summary field"": ""AM_Summary_MRK__c""			},			{				""name"": ""Business Contribution"",				""type"": ""skills section"",				""skill fields"": [					""BC_Identifies_Approp_Opps_and_Sets_MRK__c"",					""BC_Acts_on_Identified_Opps_and_Track_MRK__c"",					""BC_Appropriately_Achieves_Business_MRK__c""				],				""summary field"": ""BC_Summary_MRK__c""			}		]	}, ""MRK_Coaching"": {		""sections"": [			{				""name"": ""Sales Acumen"",				""type"": ""skills section"",				""skill fields"": [					""Sales_Acumen_EP_MRK__c"",					""Sales_Acumen_Assessment_MRK__c""],				""summary field"": ""Sales_Acumen_Summary_MRK__c""			},			{				""name"": ""Customer Segmentation & Targeting"",				""type"": ""skills section"",				""skill fields"": [					""Customer_Segmentation_EP_MRK__c"",					""Customer_Segmentation_Assessment_MRK__c""],				""summary field"": ""Customer_Segmentation_Summary_MRK__c""			},			{				""name"": ""Account Management"",				""type"": ""skills section"",				""skill fields"": [					""Account_Mgt_EP_MRK__c"",					""Account_Mgt_Assessment_MRK__c""],				""summary field"": ""AM_Summary_MRK__c""			},			{				""name"": ""Market Management"",				""type"": ""skills section"",				""skill fields"": [					""Market_Mgt_EP_MRK__c"",					""Market_Mgt_Assessment_MRK__c""],				""summary field"": ""Market_Mgt_Summary_MRK__c""			}		]	},	""vaccines"": {		""sections"": [			{				""name"": ""1:1 Customer Interactions"",				""type"": ""skills section"",				""skill fields"": [					""CI_Establish_Clinical_Platform_MRK__c"",					""CI_Brand_Differentiation_MRK__c"",					""CI_Appropriate_Patient_Vaccination_MRK__c"",					""CI_Problem_Solving_Acumen_MRK__c""								],				""summary field"": ""CI_Summary_MRK__c""			},			{				""name"": ""External Market Focus"",				""type"": ""skills section"",				""skill fields"": [					""BA_Market_Profiling_MRK__c"",					""BA_Strategic_Customer_MRK__c"",					""EMF_Business_Acumen_MRK__c""				],				""summary field"": ""EMF_Summary_MRK__c""			},			{				""name"": ""Account Management"",				""type"": ""skills section"",				""skill fields"": [					""AM_Plan_MRK__c"",					""AM_Implement_MRK__c"",					""AM_Evaluate_MRK__c"",					""AM_Purchase_Logistics_MRK__c""				],				""summary field"": ""AM_Summary_MRK__c""			},			{				""name"": ""Business Contribution"",				""type"": ""skills section"",				""skill fields"": [					""BC_Identifies_Approp_Opps_and_Sets_MRK__c"",					""BC_Acts_on_Identified_Opps_and_Track_MRK__c"",					""BC_Appropriately_Achieves_Business_MRK__c""				],				""summary field"": ""BC_Summary_MRK__c""			}		]	}}","JSON"
+"a2yU0000000TNkvIAG","005U0000000nwrsIAA","false","COMMUNICATIONS_APPLICATION","2013-12-07T04:40:39.000Z","005U0000000nwrsIAA","2014-08-16T03:18:10.000Z","005U0000000nwrsIAA","2014-08-16T03:18:10.000Z","true","false","","","true","Settings for the Communications Application","COMMUNICATIONS_APPLICATION-en_US","en_US","{	""pilot mode"": false,	""pilot user field api name"": ""Communication_User_MRK__c"",	""users for event publish soql"": ""select Id, Username from User where Merck_Employee_ID_MRK__c != null and IsActive = true"",	""territory targeting levels"": 4,	""communication event color"": ""Orange"",	""communication event record type id soql"": ""select Id from RecordType where DeveloperName = 'Communication_Event_MRK' and SobjectTYpe = 'Event' and IsActive = true"",	""communication event assignment job class name"": ""MRK_BatchCommunicationEventPublish"",	""communication event publish job batch size"": 15,	""communication events base soql template"": ""select Id, Communication_Event_MRK__c, Profile_MRK__c, Product_MRK__c, Team_MRK__c, Type_MRK__c, Communication_Event_MRK__r.Version_MRK__c, Communication_Event_MRK__r.Name, Communication_Event_MRK__r.Status_MRK__c, Communication_Event_MRK__r.Active_MRK__c, Communication_Event_MRK__r.Start_DateTime_MRK__c, Communication_Event_MRK__r.End_DateTime_MRK__c, Communication_Event_MRK__r.Title_MRK__c, Communication_Event_MRK__r.Description_MRK__c, Communication_Event_MRK__r.Source_MRK__c, Communication_Event_MRK__r.Category_MRK__c, Communication_Event_MRK__r.Location_MRK__c, Communication_Event_MRK__r.Time_to_Complete_MRK__c, Communication_Event_MRK__r.Contact_Type_MRK__c from Communication_Event_Target_MRK__c"",	""communication events for user soql where filter template"": ""(Profile_MRK__c includes({0})) and (Product_MRK__c includes ({1})) and (Team_MRK__c includes ({2}))"",	""communication event not available message template"": ""Event with an ID of \""{0}\"" is not avaialble."",	""communication base soql template"": ""select Id, OwnerId, IsDeleted, Name, Title_MRK__c, Summary_MRK__c, Body_MRK__c, Source_MRK__c, Category_MRK__c, Time_to_Complete_MRK__c, Status_MRK__c, Effective_Date_MRK__c, Expiration_Date_MRK__c, Active_MRK__c, (SELECT Id, Name, Description FROM Attachments) from Communication_MRK__c where Id = {0}"",	""communications base soql template"": ""select Id, Communication_MRK__c, Profile_MRK__c, Product_MRK__c, Team_MRK__c, Type_MRK__c, Communication_MRK__r.Name, Communication_MRK__r.Effective_Date_MRK__c, Communication_MRK__r.Title_MRK__c, Communication_MRK__r.Summary_MRK__c, Communication_MRK__r.Source_MRK__c, Communication_MRK__r.Category_MRK__c from Communication_Target_MRK__c where Communication_MRK__r.Status_MRK__c = {0} and Communication_MRK__r.Active_MRK__c = true and Communication_MRK__r.Effective_Date_MRK__c <= TODAY and Communication_MRK__r.Expiration_Date_MRK__c >= TODAY"",	""communications for user soql where filter template"": ""(Profile_MRK__c includes({0})) and (Product_MRK__c includes ({1})) and (Team_MRK__c includes ({2}))"",	""functionality not available message"": ""<div class='alert alert-info'>This page is not yet accessible to all users.   More details will be provided when content is available.</div>"",	""communication detail url prefix"": ""/apex/communication"",	""communication not available message"": ""This page is not yet accessible to all users.   More details will be provided when content is available."",	""notifications not available message"": ""Notifications are not yet available on this page for all users"",	""links soql"": ""select Id, Name, Name_MRK__c, Description_MRK__c, URL_MRK__c, Sort_Order_MRK__c, Resource_Link_Category_MRK__c, Resource_Link_Category_MRK__r.Name, Resource_Link_Category_MRK__r.Sort_Order_MRK__c, Resource_Link_Category_MRK__r.Description_MRK__c, Active_MRK__c, Category_MRK__c from Resource_Link_MRK__c where Active_MRK__c = true"",	""links header message"": ""<div class='alert alert-info'><strong>Note:</strong>   Some sites may not function and/or display properly on the iPad.   If this occurs, please view the content on your laptop.</div>""}","JSON"
+"a2yU0000000TNkwIAG","005U0000000nwrsIAA","false","TEST","2013-12-07T04:40:39.000Z","005U0000000nwrsIAA","2014-08-16T03:18:10.000Z","005U0000000nwrsIAA","2014-08-16T03:18:10.000Z","true","false","","","true","","TEST-en_US","en_US","{
+	""section"": {
+		""fields"": [
+			{
+				""name"": ""CI_Knowledge_MRK__c"",
+				""type"": ""text""
+			},
+			{
+				""name"": ""CI_Summary_MRK__c"",
+				""type"": ""summary""
+			}
+		],
+		""summary field"": ""CI_Summary_MRK__c"" 
+	},
+	""name"": ""brian""
+}","JSON"
+"a2yU0000000TQoNIAW","005U0000000nwrsIAA","false","CUSTOM_APPROVAL_PROCESS","2014-08-16T03:18:09.000Z","005U0000000nwrsIAA","2014-08-17T01:59:51.000Z","005U0000000pD4vIAE","2014-08-17T01:59:51.000Z","true","false","","","true","Settings for Custom Approval Process","CUSTOM_APPROVAL_PROCESS-en_US","en_US","{
+	""object name to approval process services class name"": {
+		""Account_Plan_vod__c"": ""MRK_AccountPlanApprovalProcessServices"",
+		""Coaching_Report_vod__c"": ""MRK_CoachingReportApprovalPrcssServices""
+	},
+
+	""object name to available approvers base soql"": {
+		""Account_Plan_vod__c"": ""select Id, Username, Name, LastName, FirstName, Title, Department from User where IsActive = true and (Profile.Name = 'MRK - Sales Director') order by Name"",
+		""Coaching_Report_vod__c"": ""select Id, Username, Name, LastName, FirstName, Title, Department from User where IsActive = true and (Profile.Name = 'MRK - Sales Director') order by Name""
+	}
+}","JSON"
+"a2yU0000000TQoOIAW","005U0000000nwrsIAA","false","ACCOUNT_PLANNING","2014-08-16T03:18:09.000Z","005U0000000nwrsIAA","2014-08-16T03:18:09.000Z","005U0000000nwrsIAA","2014-08-16T03:18:09.000Z","true","false","","","true","Settings for Account Planning","ACCOUNT_PLANNING-en_US","en_US","{
+	""statusToRecordTypeNameObjectMaps"": {
+
+		""Account_Plan_vod__c"": {
+			""Draft"": ""MRK_AP_Draft"",
+			""Submitted"": ""MRK_AP_Submitted"",
+			""Revisions Required"": ""MRK_AP_Draft"",
+			""Approved"": ""MRK_AP_Approved""
+		},
+		""Goal_Opportunity_MRK__c"": {
+			""Draft"": ""MRK_AP_GOAL_DRAFT"",
+			""Submitted"": ""MRK_AP_GOAL_SUBMITTED"",
+			""Revisions Required"": ""MRK_AP_GOAL_DRAFT"",
+			""Approved"": ""MRK_AP_GOAL_APPROVED""
+		},
+		""Objective_MRK__c"": {
+			""Draft"": ""MRK_AP_OBJECTIVE_DRAFT"",
+			""Submitted"": ""MRK_AP_OBJECTIVE_SUBMITTED"",
+			""Revisions Required"": ""MRK_AP_OBJECTIVE_DRAFT"",
+			""Approved"": ""MRK_AP_OBJECTIVE_APPROVED""
+		},
+		""Account_Tactic_vod__c"": {
+			""Draft"": ""MRK_AP_TACTIC_DRAFT"",
+			""Submitted"": ""MRK_AP_TACTIC_SUBMITTED"",
+			""Revisions Required"": ""MRK_AP_TACTIC_DRAFT"",
+			""Approved"": ""MRK_AP_TACTIC_APPROVED""
+		}
+
+	}
+	
+}","JSON"

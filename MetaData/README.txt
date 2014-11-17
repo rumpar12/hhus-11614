@@ -1,0 +1,2 @@
+---Keep all metadata xml files in this location--- 
+---Include Source and Target XML files.
